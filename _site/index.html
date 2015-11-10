@@ -208,33 +208,32 @@
           </div>
           <div class="col-md-6">
             <div class="portfolio-item">
-              <p data-toggle="modal" href="#myModal2">
+              <p data-toggle="modal" href="#networking">
                 <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
               </p>
-              <h3><p data-toggle="modal" href="#myModal2">Linux Networking</p></h3>
+              <h3><p data-toggle="modal" href="#networking">Linux Networking</p></h3>
             </div>
           </div>
           <div class="col-md-6">
             <div class="portfolio-item">
-				<p data-toggle="modal" href="#myModal2">
+				<p data-toggle="modal" href="#support">
 					<img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" alt="Linux Support">
 				</p>
-				<h3><p data-toggle="modal" href="#myModal2">
+				<h3><p data-toggle="modal" href="#support">
 					Linux Support
 				</p></h3>
             </div>
           </div>
           <div class="col-md-6">
             <div class="portfolio-item">
-              <p data-toggle="modal" href="#myModal2">
+              <p data-toggle="modal" href="#more">
                 <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
               </p>
-              <h3><p data-toggle="modal" href="#myModal2">Much More</p></h3>
+              <h3><p data-toggle="modal" href="#more">Much More</p></h3>
             </div>
           </div>
         </div>
         <!-- /.row (nested) -->
-        <a href="#" class="btn btn-dark">View More Items</a>
       </div>
       <!-- /.col-lg-10 -->
     </div>
@@ -261,15 +260,53 @@
 	    <!-- /.row -->
 	    <!-- /.row -->
     	<!-- Modal -->
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
-			<div class="modal-dialog-lg" role="document">
+		<div class="modal fade" id="networking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+			<div class="modal-dialog modal-lg" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<center><h3 class="modal-title" id="myModalLabel2">More about Linux</h3></center>
+						<center><h3 class="modal-title" id="myModalLabel2">Linux Networking</h3></center>
 					</div>
 					<div class="modal-body">
-						<h4>This is not the same</h4>
+						<h4>Blurb about linux networking</h4>
+					</div>
+					<div class="modal-footer">
+						<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <!-- /.row -->
+	    	    <!-- /.row -->
+    	<!-- Modal -->
+		<div class="modal fade" id="support" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<center><h3 class="modal-title" id="myModalLabel2">Linux Support</h3></center>
+					</div>
+					<div class="modal-body">
+						<h4>Blurb about Linux support</h4>
+					</div>
+					<div class="modal-footer">
+						<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <!-- /.row -->
+	    	    <!-- /.row -->
+    	<!-- Modal -->
+		<div class="modal fade" id="more" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<center><h3 class="modal-title" id="myModalLabel2">More Services</h3></center>
+					</div>
+					<div class="modal-body">
+						<h4>Blurb about more Linux Services</h4>
 					</div>
 					<div class="modal-footer">
 						<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
@@ -287,12 +324,69 @@
 	<div class="container">
 		<center><h2>About Me</h2></center>
 		<div class="row">
-			<center><a href="#footer" class="btn btn-dark btn-lg">Linux Background</a>
-			<a href="#footer" class="btn btn-dark btn-lg">Programming Background</a>
-			<a href="#footer" class="btn btn-dark btn-lg">Contact Me</a></center>
+			<center><a type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#linuxBackground">Linux Background</a>
+			<a type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#programmingBackground">Programming Background</a>
+			<a type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#contactMe">Contact Me</a></center>
 		</div>
 	</div>
-</aside>
+	</aside>
+	<!-- /.row -->
+	<!-- Modal -->
+	<div class="modal fade" id="linuxBackground" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<center><h3 class="modal-title" id="myModalLabel2">My Linux Background</h3></center>
+				</div>
+				<div class="modal-body">
+					<h4>Blurb about my linux background.</h4>
+				</div>
+				<div class="modal-footer">
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
+	<!-- /.row -->
+	<!-- Modal -->
+	<div class="modal fade" id="programmingBackground" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<center><h3 class="modal-title" id="myModalLabel2">My Programming Background</h3></center>
+				</div>
+				<div class="modal-body">
+					<h4>Blurb about my programming background.</h4>
+				</div>
+				<div class="modal-footer">
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
+	<!-- /.row -->
+	<!-- Modal -->
+	<div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<center><h3 class="modal-title" id="myModalLabel2">Contact Me</h3></center>
+				</div>
+				<div class="modal-body">
+					<h4>Contact Info</h4>
+				</div>
+				<div class="modal-footer">
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.row -->
 
   <footer>
 	<div class="container">
@@ -311,8 +405,8 @@
         <h4><a href="http://www.linuxquestions.org/">Linux Questions</a></h4>
         
         <h3>Linux in Cochise County</h3>
-        <h4>CLUG</h4>
-        <h4>AZLOCO</h4>
+        <h4><a href="http://cochiselinuxusersgroup.github.io/">CLUG - Cochise Linux User Group</a></h4>
+        <h4><a href="http://www.azloco.com/">AZLOCO</a></h4>
         <p>
           
           <br>
@@ -331,10 +425,10 @@
             <a href="https://facebook.com/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            <a href="https://twitter.com/paul_ber"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://github.com/"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a href="https://github.com/paulbe/paulbe.github.io"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
         </ul>
         <hr class="small">
