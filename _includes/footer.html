@@ -1,0 +1,48 @@
+<footer>
+	<div class="container">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h4><strong>{{ site.owner }}</strong>
+        </h4>
+        <h3>Popular Distributions</h3>
+        
+        <h4><a href="http://www.ubuntu.com/desktop">Ubuntu</a></h4>
+        <h4><a href="http://www.linuxmint.com/download.php">Linux Mint</a></h4>
+        <h4><a href="https://getfedora.org/">Fedora</a></h4>
+        <h4><a href="https://www.archlinux.org/">Arch Linux</a></h4>
+        
+        <h3>Helpful Links</h3>
+        <h4><a href="http://ubuntuforums.org/">Ubuntu Forums</a></h4>
+        <h4><a href="http://www.linuxquestions.org/">Linux Questions</a></h4>
+        
+        <h3>Linux in Cochise County</h3>
+        <h4>CLUG</h4>
+        <h4>AZLOCO</h4>
+        <p>
+          {% for address in site.address %}
+          {{ address.line }}<br>
+          {% endfor %}
+        </p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li>
+        </ul>
+        <br>
+        <ul class="list-inline">
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+          </li>
+        </ul>
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }} Paul Bernard<br>jekyll theme <a href ="https://github.com/volny/stylish-portfolio-jekyll">Stylish Portfolio</a> by <a href="http://startbootstrap.com/">Start Bootstrap</a><br>Hosted on <a href="https://github.com/">github</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
