@@ -9,14 +9,16 @@
   <title>Cochise Linux Guy</title>
 
   <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ " /css/bootstrap.min.css " | prepend: site.baseurl }}">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ " /css/stylish-portfolio.css " | prepend: site.baseurl }}">
 
   <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ " /font-awesome/css/font-awesome.min.css " | prepend: site.baseurl }}">
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
