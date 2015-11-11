@@ -17,5 +17,30 @@
     <li>
 	  <a href="#aboutme" onclick = $("#menu-close").click(); >About Me</a>
 	</li>
+	<li>
+	  <a data-toggle="modal" data-target="#contactMe" onclick = $("#menu-close").click(); >Contact Me</a>
+	</li>
   </ul>
 </nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<center><h3 class="modal-title" id="myModalLabel2">Contact Me</h3></center>
+				</div>
+				<div class="modal-body">
+					<h4 class="text-center" style="padding-right: 50px; padding-left: 50px">Email me: <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:cochiselinuxguy@gmail.com">cochiselinuxguy</a>
+					<br><br>
+					Follow me on <a href="https://twitter.com/paul_ber">Twitter</a>
+					<br><br>
+					Follow or message me on <a href="https://plus.google.com/b/109166435917308227522/109166435917308227522/about/p/pub?hl=en">Google+</a></h4>
+				</div>
+				<div class="modal-footer">
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center>
+				</div>
+			</div>
+		</div>
+	</div>
